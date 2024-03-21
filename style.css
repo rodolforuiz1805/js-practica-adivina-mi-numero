@@ -1,0 +1,72 @@
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #7f53ac,
+        #657ced
+    );
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+    background-image: url(./assets/fondo.jpg);
+    background-size: auto;
+    background-position: center;
+    
+}
+
+.contenedor-resultado {
+    background-color: #FF77AF;
+    opacity: 0.9;
+    color: #ffffff;
+    padding: 10px; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+#insertar-numero{
+    background-color: #6D82DD;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    width: 80%; 
+    padding: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px; 
+    cursor: pointer; 
+}
+
+#menor {
+    background-color: #CB57A1;
+   
+}
+
+#si{
+    background-color: #FD6C88;
+}
+
+#mayor{
+    background-color: #FF946D;
+   
+}
