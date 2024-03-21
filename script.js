@@ -6,7 +6,7 @@ let max = 100;
 let numeroElegido;
 
 function iniciarJuego() {
-  numeroElegido = Math.floor((min + max) / 2);
+  numeroElegido = Math.floor(Math.random() * 100 + 1);
   mostrarIntento();
 }
 
